@@ -1,0 +1,28 @@
+{
+	"identifiers": [
+		"GMS-2015-15"
+	],
+	"identifier": "GMS-2015-15",
+	"package_slug": "packagist/paragonie/random_compat",
+	"title": "Insecure CSPRNG",
+	"description": "`random_compat` uses `openssl_random_pseudo_bytes()` but this Cryptographically Secure Pseudorandom Number Generator (CSPRNG) is insecure.",
+	"date": "2015-07-08",
+	"pubdate": "2015-07-08",
+	"affected_range": "<2.0.0",
+	"fixed_versions": [
+		"v2.0.0"
+	],
+	"affected_versions": "All versions before 2.0.0",
+	"not_impacted": "All versions starting from 2.0.0",
+	"credit": "Mason Malone",
+	"solution": "Upgrade to version v2.0.0 or above.",
+	"urls": [
+		"https://github.com/FriendsOfPHP/security-advisories/pull/146",
+		"https://github.com/paragonie/random_compat/issues/5"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "e4f625e6-acbc-43fa-88bf-faa8a1d77859"
+}

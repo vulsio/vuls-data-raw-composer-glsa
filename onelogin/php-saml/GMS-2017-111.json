@@ -1,0 +1,26 @@
+{
+	"identifiers": [
+		"GMS-2017-111"
+	],
+	"identifier": "GMS-2017-111",
+	"package_slug": "packagist/onelogin/php-saml",
+	"title": "Vulnerability in signature verification",
+	"description": "An error during signature verification can be treated as a successful verification.",
+	"date": "2017-02-28",
+	"pubdate": "2017-02-28",
+	"affected_range": "<2.10.4",
+	"fixed_versions": [
+		"2.10.4"
+	],
+	"affected_versions": "All versions before 2.10.4",
+	"not_impacted": "All versions starting from 2.10.4",
+	"solution": "Upgrade to version 2.10.4 or above.",
+	"urls": [
+		"https://github.com/onelogin/php-saml/commit/949359f5cad5e1d085c4e5447d9aa8f49a6e82a1"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "5e3f0551-4d05-4c5e-b67c-aba4ceab26c2"
+}

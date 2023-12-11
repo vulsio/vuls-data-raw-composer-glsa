@@ -1,0 +1,29 @@
+{
+	"identifiers": [
+		"GMS-2018-25"
+	],
+	"identifier": "GMS-2018-25",
+	"package_slug": "packagist/adodb/adodb-php",
+	"title": "SQL Injection",
+	"description": "The `SelectLimit` function has a potential SQL injection vulnerability through the use of the `nrows` and `offset` parameters which are not forced to integers.",
+	"date": "2018-03-06",
+	"pubdate": "2018-03-06",
+	"affected_range": "<5.20.11",
+	"fixed_versions": [
+		"v5.20.11"
+	],
+	"affected_versions": "All versions before 5.20.11",
+	"not_impacted": "All versions starting from 5.20.11",
+	"credit": "David G. Paul",
+	"solution": "Upgrade to version v5.20.11 or above.",
+	"urls": [
+		"https://github.com/ADOdb/ADOdb/commit/d29c23f2264ec95c6d3851e0f51ce240b2f36b74",
+		"https://github.com/ADOdb/ADOdb/issues/400",
+		"https://github.com/ADOdb/ADOdb/pull/401"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "93b94640-8419-436d-9874-fe2bb112b8fa"
+}

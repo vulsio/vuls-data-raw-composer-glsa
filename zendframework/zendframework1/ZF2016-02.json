@@ -1,0 +1,24 @@
+{
+	"identifiers": [
+		"ZF2016-02"
+	],
+	"identifier": "ZF2016-02",
+	"package_slug": "packagist/zendframework/zendframework1",
+	"title": "Potential SQL injection",
+	"description": "The implementation of `ORDER BY` and `GROUP BY` in `Zend_Db_Select` of ZF1 is vulnerable by the following SQL injection.",
+	"date": "2016-07-13",
+	"pubdate": "2016-07-13",
+	"affected_range": "<1.12.19",
+	"fixed_versions": [
+		"1.12.19"
+	],
+	"affected_versions": "All versions before 1.12.19",
+	"not_impacted": "All versions starting from 1.12.19",
+	"credit": "Peter O'Callaghan, Enrico Zimuel",
+	"solution": "Upgrade to version 1.12.19 or above.",
+	"urls": [
+		"https://framework.zend.com/security/advisory/ZF2016-02",
+		"https://github.com/zendframework/zf1/commit/bf3f40605be3d8f136a07ae991079a7dcb34d967"
+	],
+	"uuid": "9291001b-a9d9-4468-805f-08d6c10958b7"
+}

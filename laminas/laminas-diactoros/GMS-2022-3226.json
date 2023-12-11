@@ -1,0 +1,32 @@
+{
+	"identifiers": [
+		"GHSA-8274-h5jp-97vr",
+		"GMS-2022-3226",
+		"CVE-2022-31109"
+	],
+	"identifier": "GMS-2022-3226",
+	"package_slug": "packagist/laminas/laminas-diactoros",
+	"title": "Duplicate of ./packagist/laminas/laminas-diactoros/CVE-2022-31109.yml",
+	"description": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') in laminas/laminas-diactoros.",
+	"date": "2022-07-27",
+	"pubdate": "2022-07-27",
+	"affected_range": "<0",
+	"fixed_versions": [
+		"2.11.1"
+	],
+	"affected_versions": "All versions before 2.11.1",
+	"not_impacted": "All versions starting from 2.11.1",
+	"solution": "Upgrade to version 2.11.1 or above.",
+	"urls": [
+		"https://github.com/laminas/laminas-diactoros/security/advisories/GHSA-8274-h5jp-97vr",
+		"https://github.com/laminas/laminas-diactoros/commit/25b11d422c2e5dad868f68619888763b30f91e2d",
+		"https://github.com/laminas/laminas-diactoros/releases/tag/2.11.1",
+		"https://github.com/advisories/GHSA-8274-h5jp-97vr"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-79",
+		"CWE-937"
+	],
+	"uuid": "6cf415dd-3c86-4d05-b2a5-6165140c4764"
+}

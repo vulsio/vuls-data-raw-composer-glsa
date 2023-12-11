@@ -1,0 +1,27 @@
+{
+	"identifiers": [
+		"SS-2015-020"
+	],
+	"identifier": "SS-2015-020",
+	"package_slug": "packagist/silverstripe/framework",
+	"title": "Privilege Escalation",
+	"description": "A member with the permission EDIT_PERMISSIONS is able to re-assign themselves (or another member) to ADMIN level.",
+	"date": "2015-09-15",
+	"pubdate": "2015-09-15",
+	"affected_range": "<3.1.14-stable",
+	"fixed_versions": [
+		"3.1.14"
+	],
+	"affected_versions": "All versions before 3.1.14",
+	"not_impacted": "All versions starting from 3.1.14-stable",
+	"credit": "Florian Thoma",
+	"solution": "Upgrade to version 3.1.14 or above.",
+	"urls": [
+		"http://www.silverstripe.org/software/download/security-releases/ss-2015-020/"
+	],
+	"cwe_ids": [
+		"CWE-1035",
+		"CWE-937"
+	],
+	"uuid": "2a5ef867-5beb-40f4-9719-0a2a89cdc8b5"
+}
